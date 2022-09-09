@@ -1,0 +1,432 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Readex Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+}
+
+header .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 1295px;
+}
+header .container nav ul {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+header .container nav ul li:nth-of-type(1) {
+  margin-right: 33px;
+}
+@media screen and (max-width: 992px) {
+  header .container nav ul li:nth-of-type(1) {
+    margin-right: 0;
+  }
+}
+header .container nav ul li:nth-of-type(3) {
+  margin-right: 44px;
+}
+@media screen and (max-width: 992px) {
+  header .container nav ul li:nth-of-type(3) {
+    margin-right: 0;
+  }
+}
+header .container nav ul li .solutions-dropdown:after {
+  margin-left: 4px;
+  margin-right: 34px;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 9px;
+  background-repeat: no-repeat;
+  background-image: url("../images/dropdown_vector.svg");
+}
+@media screen and (max-width: 992px) {
+  header .container nav ul li .solutions-dropdown:after {
+    margin-right: 0;
+  }
+}
+header .header_icons ul {
+  margin-bottom: 0;
+}
+header .header_icons ul li:first-of-type {
+  margin-right: 22px;
+}
+header .header_icons ul li:last-of-type {
+  margin-right: 17px;
+}
+
+.main_banner {
+  background-color: #DCE5E2;
+  border-radius: 32px;
+  max-width: 1294px;
+  padding: 0;
+  background-image: url("../images/main_banner_cover.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.main_banner_text {
+  max-width: 588px;
+  margin-top: 145px;
+  margin-bottom: 127px;
+  margin-left: 56px;
+}
+.main_banner_text h1 {
+  margin-bottom: 19px;
+  line-height: 70px;
+  font-size: 58px;
+}
+.main_banner_text p {
+  line-height: 19px;
+  font-size: 16px;
+}
+.latest_offers_text {
+  margin-top: 75px;
+  margin-bottom: 55px;
+  padding: 0;
+  text-align: center;
+}
+.latest_offers_text h2 {
+  font-size: 42px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  text-align: center;
+  max-width: 780px;
+}
+.latest_offers_text p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  font-size: 14px;
+  max-width: 628px;
+}
+
+.latest_offers_grid {
+  max-width: 1294px;
+}
+
+.offers-items {
+  background-color: #F8F9FA;
+  box-shadow: 0 4px rgba(0, 0, 0, 0.25);
+}
+
+.most_selled_text {
+  margin-top: 78px;
+  max-width: 670px;
+}
+.most_selled_text h2 {
+  font-size: 42px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.most_selled_text p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  margin-bottom: 31px;
+}
+
+.most_selled_items {
+  max-width: 1294px;
+}
+.most_selled_items img {
+  margin-bottom: 37px;
+}
+.most_selled_items h3 {
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 9px;
+}
+.most_selled_items p {
+  font-size: 14px;
+  line-height: 17px;
+  height: 70px;
+  margin-bottom: 0;
+}
+.most_selled_items .prices {
+  font-size: 18px;
+  line-height: 22px;
+  height: initial;
+}
+
+.best_around_text {
+  max-width: 670px;
+  margin-top: 74px;
+  margin-bottom: 56px;
+}
+.best_around_text h3 {
+  font-size: 42px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.best_around_text p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+}
+
+.best_around_items {
+  max-width: 1294px;
+}
+.best_around_items h5 {
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  margin-top: 41px;
+}
+.best_around_items h4 {
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.best_around_items button {
+  background-color: transparent;
+  margin-bottom: 30px;
+  border: 1px solid black;
+  border-radius: 200px 200px;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 14px 63px;
+}
+.best_around_items .best_around_item {
+  border-radius: 16px;
+  background-color: #F8F9FA;
+}
+
+.ideas_text {
+  max-width: 1294px;
+  margin-top: 75px;
+  margin-bottom: 56px;
+}
+.ideas_text h3 {
+  font-size: 42px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.ideas_text p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+}
+
+.ideas_motos p {
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.see_all {
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 73px;
+  text-align: center;
+}
+.see_all:after {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-image: url("../images/arrow_vector.svg");
+}
+
+.search_block {
+  margin-top: 51px;
+  margin-bottom: 68px;
+}
+.search_block h3 {
+  font-size: 42px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.search_block form {
+  background-color: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+  max-width: 650px;
+  height: 60px;
+  margin: auto;
+}
+.search_block img {
+  margin-left: 21px;
+  margin-right: 26px;
+  margin-top: -6px;
+}
+.search_block input {
+  margin-top: 16px;
+  margin-bottom: 22px;
+  border: none;
+  background-color: #f8f9fa;
+  width: 560px;
+}
+.search_block input:focus {
+  outline: none;
+}
+.search_block button {
+  display: block;
+  padding: 12px 22px 13px;
+  background-color: transparent;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  font-size: 13px;
+  line-height: 17px;
+  white-space: nowrap;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.search_block .search_words-row-1 {
+  margin-top: 18px;
+}
+
+.subscription {
+  max-width: 935px;
+  background-color: #DCE5E2;
+  border-radius: 16px;
+  padding-top: 47px;
+  padding-bottom: 43px;
+  margin-bottom: 19px;
+}
+.subscription h3 {
+  font-size: 42px;
+  line-height: 53px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 9px;
+  text-align: center;
+}
+.subscription p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Readex Pro", sans-serif;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.subscription form {
+  background-color: #DCE5E2;
+  border: 1px solid black;
+  border-radius: 54px;
+  max-width: 400px;
+  height: 50px;
+}
+.subscription form input {
+  height: 40px;
+  border: none;
+  background-color: #DCE5E2;
+  margin-left: 32px;
+  margin-top: 3px;
+  width: 225px;
+}
+.subscription form input:focus {
+  outline: none;
+}
+.subscription form button {
+  background-color: black;
+  color: #FFFFFF;
+  width: 115px;
+  padding: 16px 33px 17px 32px;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: nowrap;
+  border: none;
+  border-radius: 0 200px 200px 0;
+  margin-top: -1px;
+  margin-right: -1px;
+}
+
+footer {
+  background-color: #F8F9FA;
+}
+footer .footer_content {
+  max-width: 1294px;
+  padding-top: 44px;
+}
+footer p {
+  margin-top: 18px;
+  font-size: 16px;
+  line-height: 19px;
+  max-width: 300px;
+}
+footer ul li:first-of-type {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  margin-bottom: 19px;
+}
+footer ul li:nth-of-type(n+2) {
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 14px;
+}
+footer hr {
+  max-width: 1350px;
+  height: 1px;
+  margin-top: 78px;
+  color: #DCE5E2;
+}
+footer .final_subscript {
+  max-width: 1294px;
+}
+footer .final_subscript p {
+  font-family: "Readex Pro", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+footer .final_subscript p a {
+  font-family: "Inter", sans-serif;
+}
+footer .final_subscript p a:after {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-image: url("../images/arrow_sub.svg");
+  background-size: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
