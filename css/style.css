@@ -74,7 +74,7 @@ header .header_icons {
 }
 @media screen and (min-width: 992px) {
   header .header_icons {
-    margin-left: 80px;
+    margin-left: 90px;
   }
 }
 header .header_icons li {
@@ -121,6 +121,10 @@ header .header_icons li:last-of-type {
   header .header_icons li:last-of-type a img {
     display: none;
   }
+}
+
+.extra-hover:hover:before {
+  color: rgba(0, 0, 0, 0.7) !important;
 }
 
 .main_banner {
@@ -189,12 +193,16 @@ header .header_icons li:last-of-type {
   margin-bottom: 30px;
 }
 .main_banner_text button {
+  transition: 0.2s;
   background-color: transparent;
   border: 1px solid black;
   border-radius: 200px 200px;
   font-size: 18px;
   line-height: 22px;
   padding: 14px 63px;
+}
+.main_banner_text button:hover {
+  transform: scale(1.03);
 }
 @media screen and (max-width: 768px) {
   .main_banner_text button {
@@ -311,6 +319,10 @@ header .header_icons li:last-of-type {
 .offers-items {
   background-color: #F8F9FA;
   filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  transition: 0.5s;
+}
+.offers-items:hover {
+  transform: scale(1.03);
 }
 @media screen and (min-width: 320px) {
   .offers-items h5 {
@@ -611,9 +623,11 @@ header .header_icons li:last-of-type {
 }
 .most_selled_items a {
   text-decoration: none;
+  transition: 0.5s;
 }
 .most_selled_items a:hover {
   cursor: pointer;
+  transform: scale(1.03);
 }
 .most_selled_items img {
   margin-bottom: 37px;
@@ -693,6 +707,10 @@ header .header_icons li:last-of-type {
   font-size: 18px;
   line-height: 22px;
   padding: 14px 63px;
+  transition: 0.2s;
+}
+.best_around_items button:hover {
+  transform: scale(1.03);
 }
 .best_around_items .best_around_item {
   border-radius: 16px;
@@ -802,11 +820,11 @@ header .header_icons li:last-of-type {
   margin-top: -6px;
 }
 .search_block input {
-  margin-top: 16px;
+  margin-top: 28px;
   margin-bottom: 22px;
   border: none;
   background-color: #f8f9fa;
-  width: 560px;
+  width: 420px;
 }
 @media screen and (max-width: 428px) {
   .search_block input {
@@ -827,6 +845,10 @@ header .header_icons li:last-of-type {
   white-space: nowrap;
   margin-right: 7px;
   margin-bottom: 7px;
+  transition: 0.2s;
+}
+.search_block button:hover {
+  transform: scale(1.03);
 }
 @media screen and (max-width: 576px) {
   .search_block button {
@@ -905,6 +927,10 @@ header .header_icons li:last-of-type {
   border-radius: 0 200px 200px 0;
   margin-top: -1px;
   margin-right: -1px;
+  transition: 0.2s;
+}
+.subscription form button:hover {
+  transform: scale(1.02);
 }
 
 footer {

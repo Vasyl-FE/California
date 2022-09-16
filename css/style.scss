@@ -117,9 +117,8 @@ header {
 
   .header_icons {
     margin-bottom: 0;
-
     @include min-screen-width(992px) {
-      margin-left: 80px;
+      margin-left: 90px;
     }
 
     li {
@@ -177,6 +176,9 @@ header {
   }
 }
 
+.extra-hover:hover:before {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
 
 .main_banner {
   background-color: #DCE5E2;
@@ -236,6 +238,12 @@ header {
   }
 
   button {
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.03)
+    }
+
     @include max-screen-width(768px) {
       margin: auto;
     }
@@ -346,6 +354,11 @@ header {
 .offers-items {
   background-color: $bg_item_color;
   filter: drop-shadow(0px 4px 35px rgba(0, 0, 0, 0.25));
+  transition: 0.5s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 
   h5 {
     @include min-screen-width(320px) {
@@ -581,9 +594,11 @@ header {
 
   a {
     text-decoration: none;
+    transition: 0.5s;
 
     &:hover {
       cursor: pointer;
+      transform: scale(1.03);
     }
   }
 
@@ -657,6 +672,11 @@ header {
     font-size: 18px;
     line-height: 22px;
     padding: 14px 63px;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.03)
+    }
   }
 
   .best_around_item {
@@ -743,11 +763,11 @@ header {
   }
 
   input {
-    margin-top: 16px;
+    margin-top: 28px;
     margin-bottom: 22px;
     border: none;
     background-color: #f8f9fa;
-    width: 560px;
+    width: 420px;
     @include max-screen-width(428px) {
       width: 200px;
     }
@@ -768,6 +788,12 @@ header {
     white-space: nowrap;
     margin-right: 7px;
     margin-bottom: 7px;
+    transition: 0.2s;
+
+    &:hover {
+      transform: scale(1.03)
+    }
+
     @include max-screen-width(576px) {
       font-size: 7px;
       line-height: 9px;
@@ -832,6 +858,11 @@ header {
       border-radius: 0 200px 200px 0;
       margin-top: -1px;
       margin-right: -1px;
+      transition: 0.2s;
+
+      &:hover {
+        transform: scale(1.02)
+      }
     }
   }
 }
