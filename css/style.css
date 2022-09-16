@@ -24,6 +24,11 @@ header .container {
   margin-bottom: 30px;
   max-width: 1295px;
 }
+@media screen and (max-width: 320px) {
+  header .container nav {
+    font-size: 0.7rem;
+  }
+}
 header .container nav ul {
   text-transform: uppercase;
   margin-bottom: 0;
@@ -31,7 +36,7 @@ header .container nav ul {
 header .container nav ul li:nth-of-type(1) {
   margin-right: 33px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   header .container nav ul li:nth-of-type(1) {
     margin-right: 0;
   }
@@ -39,7 +44,7 @@ header .container nav ul li:nth-of-type(1) {
 header .container nav ul li:nth-of-type(3) {
   margin-right: 44px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   header .container nav ul li:nth-of-type(3) {
     margin-right: 0;
   }
@@ -54,19 +59,68 @@ header .container nav ul li .solutions-dropdown:after {
   background-repeat: no-repeat;
   background-image: url("../images/dropdown_vector.svg");
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   header .container nav ul li .solutions-dropdown:after {
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 991px) and (max-width: 320px) {
+  header .container nav ul li .solutions-dropdown:after {
+    display: none;
   }
 }
 header .header_icons {
   margin-bottom: 0;
 }
+@media screen and (min-width: 992px) {
+  header .header_icons {
+    margin-left: 80px;
+  }
+}
+header .header_icons li {
+  text-align: right;
+}
 header .header_icons li:first-of-type {
   margin-right: 22px;
 }
+@media screen and (max-width: 991px) {
+  header .header_icons li:first-of-type {
+    margin-right: 0;
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  header .header_icons li:first-of-type a:before {
+    content: "Search";
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (max-width: 320px) {
+  header .header_icons li:first-of-type a img {
+    display: none;
+  }
+}
 header .header_icons li:last-of-type {
   margin-right: 17px;
+}
+@media screen and (max-width: 991px) {
+  header .header_icons li:last-of-type {
+    margin-right: 0;
+    padding: 8px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  header .header_icons li:last-of-type a:before {
+    content: "Your cart";
+    margin-right: 5px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (max-width: 320px) {
+  header .header_icons li:last-of-type a img {
+    display: none;
+  }
 }
 
 .main_banner {
