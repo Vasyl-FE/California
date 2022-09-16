@@ -241,7 +241,10 @@ header {
     transition: 0.2s;
 
     &:hover {
-      transform: scale(1.03)
+      transform: scale(1.03);
+      background-color: #6c757d;
+      color: #FFFFFF;
+      border-color: #6c757d;
     }
 
     @include max-screen-width(768px) {
@@ -675,7 +678,10 @@ header {
     transition: 0.2s;
 
     &:hover {
-      transform: scale(1.03)
+      transform: scale(1.03);
+      background-color: #6c757d;
+      color: #FFFFFF;
+      border-color: #6c757d;
     }
   }
 

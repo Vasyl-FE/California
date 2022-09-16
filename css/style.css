@@ -203,6 +203,9 @@ header .header_icons li:last-of-type {
 }
 .main_banner_text button:hover {
   transform: scale(1.03);
+  background-color: #6c757d;
+  color: #FFFFFF;
+  border-color: #6c757d;
 }
 @media screen and (max-width: 768px) {
   .main_banner_text button {
@@ -711,6 +714,9 @@ header .header_icons li:last-of-type {
 }
 .best_around_items button:hover {
   transform: scale(1.03);
+  background-color: #6c757d;
+  color: #FFFFFF;
+  border-color: #6c757d;
 }
 .best_around_items .best_around_item {
   border-radius: 16px;
