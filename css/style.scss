@@ -213,7 +213,7 @@ header {
     margin-bottom: 127px;
   }
 
-  h1 {
+  h1, h2 {
     @include min-screen-width(320px) {
       font-size: 23px;
       line-height: 25px;
