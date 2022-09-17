@@ -192,7 +192,7 @@ header .header_icons li:last-of-type {
   font-size: 16px;
   margin-bottom: 30px;
 }
-.main_banner_text button {
+.main_banner_text a {
   transition: 0.2s;
   background-color: transparent;
   border: 1px solid black;
@@ -201,19 +201,19 @@ header .header_icons li:last-of-type {
   line-height: 22px;
   padding: 14px 63px;
 }
-.main_banner_text button:hover {
+.main_banner_text a:hover {
   transform: scale(1.03);
   background-color: #6c757d;
   color: #FFFFFF;
   border-color: #6c757d;
 }
 @media screen and (max-width: 768px) {
-  .main_banner_text button {
+  .main_banner_text a {
     margin: auto;
   }
 }
 @media screen and (min-width: 768px) {
-  .main_banner_text button {
+  .main_banner_text a {
     margin: 0;
   }
 }
@@ -702,7 +702,7 @@ header .header_icons li:last-of-type {
   text-align: center;
   margin-bottom: 30px;
 }
-.best_around_items button {
+.best_around_items a {
   background-color: transparent;
   margin-bottom: 30px;
   border: 1px solid black;
@@ -710,9 +710,10 @@ header .header_icons li:last-of-type {
   font-size: 18px;
   line-height: 22px;
   padding: 14px 63px;
+  max-width: 190px;
   transition: 0.2s;
 }
-.best_around_items button:hover {
+.best_around_items a:hover {
   transform: scale(1.03);
   background-color: #6c757d;
   color: #FFFFFF;

@@ -237,7 +237,7 @@ header {
     margin-bottom: 30px;
   }
 
-  button {
+  a {
     transition: 0.2s;
 
     &:hover {
@@ -667,7 +667,7 @@ header {
     margin-bottom: 30px;
   }
 
-  button {
+  a {
     background-color: transparent;
     margin-bottom: 30px;
     border: 1px solid black;
@@ -675,6 +675,7 @@ header {
     font-size: 18px;
     line-height: 22px;
     padding: 14px 63px;
+    max-width: 190px;
     transition: 0.2s;
 
     &:hover {
