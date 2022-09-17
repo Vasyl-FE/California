@@ -841,7 +841,7 @@ header .header_icons li:last-of-type {
 .search_block input:focus {
   outline: none;
 }
-.search_block button {
+.search_block a {
   display: block;
   padding: 12px 22px 13px;
   background-color: transparent;
@@ -852,13 +852,14 @@ header .header_icons li:last-of-type {
   white-space: nowrap;
   margin-right: 7px;
   margin-bottom: 7px;
+  text-decoration: none;
   transition: 0.2s;
 }
-.search_block button:hover {
+.search_block a:hover {
   transform: scale(1.03);
 }
 @media screen and (max-width: 576px) {
-  .search_block button {
+  .search_block a {
     font-size: 7px;
     line-height: 9px;
     padding: 7px 12px 7px;

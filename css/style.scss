@@ -784,7 +784,7 @@ header {
     }
   }
 
-  button {
+  a {
     display: block;
     padding: 12px 22px 13px;
     background-color: transparent;
@@ -795,6 +795,7 @@ header {
     white-space: nowrap;
     margin-right: 7px;
     margin-bottom: 7px;
+    text-decoration: none;
     transition: 0.2s;
 
     &:hover {
