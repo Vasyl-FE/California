@@ -1,9 +1,9 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:0,
-    // autoplay:true,
-    // autoplayHoverPause: true,
-    // autoplaySpeed: 700,
+    autoplay:true,
+    autoplayHoverPause: true,
+    autoplaySpeed: 700,
     nav:true,
     navText: [ '', ' ' ],
 
